@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GEEKAH GURLZ</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fuentes que uso -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Press+Start+2P&family=VT323&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container-fluid p-0"></div>
+
+    <nav class="colorbarra navbar navbar-expand-lg navbar-dark sticky-lg-top">
+        <div class="container-fluid">
+            <a class="logo">Geeka Gurlz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#principal">Quienes somos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Secciones
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="formatomenu " href="./pages/videojuegos.html">Video Juegos</a></li>
+                            <li><a class="formatomenu " href="./pages/coding.html">Coding</a></li>
+                            <li><a class="formatomenu " href="./pages/manga.html">Manga y anime</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#foot">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Fin de Navegación-->
+
+
+    <!-- Encabezado-->
+    <header>
+        <div class="container-fluid">
+            <div class="row header">
+                <div class="col p-0">
+                    <img src="./imagenes/Banner.png" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Fin del Encabezado-->
+
+    <!-- Main -->
+
+    <main id="principal">
+        <div class="container-fluid">
+            <div class="main row">
+                <div class="col colfondo">
+                    <div class="d-flex flex-column justify-content-end mb-2 m-3 mx-5">
+                        <div class="row">
+                            <div class="col col-lg-6 offset-lg-6">
+                                <div class="flexboxhijo2 text-center">
+                                    <p class="formatodetexto">BIENVENIDAS!
+                                        Somos un grupo de mujeres de Argentina con ganas de formar una
+                                        comunidad geek exclusivo para nosotras. En nuestras diferentes secciones
+                                        encontrarás
+                                        info
+                                        sobre gaming, juegos de rol, comics, tecnología, entrevistas, y demas.
+                                        Si te interesa formar parte, contarnos alguna experiencia, o escribir para
+                                        nosotras,
+                                        no
+                                        dudes en rellenar el formulario! Te esperamos!
+                                    </P>>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Fin de main -->
+
+    <!-- Carrousel -->
+
+    <article id=secciones>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="./pages/videojuegos.html"> <img src="imagenes/carrousel1.png" class="d-block w-100"></a>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="titulocard">Click en la imagen</p>
+                </div>
+                <div class="carousel-item">
+                    <a href="./pages/coding.html">
+                        <img src="imagenes/carrousel2.png" class="d-block w-100"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="./pages/manga.html">
+                        <img src="imagenes/carrousel3.png" class="d-block w-100"></a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </article>
+    <!-- Carrousel -->
+
+    <!-- Contacto -->
+
+    <section id="foot" class="contact d-flex align-items-center" id="contact">
+        <div class="container-fluid text-light">
+            <div class="contacto row">
+                <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center px-lg-5"
+                    data-aos="fade-right">
+                    <div style="width:90%">
+                        <div class="text-center text-lg-start py-4 pt-lg-0">
+                            <h2 class=" formatoencabezado py-2">Envianos tu solicitud</h2>
+                            <p class="formatodecontacto para-light">Si querés ser parte del staff, contarnos historias,
+                                escribir una nota, o enviarnos algo que sea de tu interés, no dudes en escribirnos, y
+                                nos pondremos en contacto con vos.</p>
+                        </div>
+                        <div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group py-2">
+                                        <input type="text" class="formatodecontacto form-control form-control-input"
+                                            id="exampleFormControlInput1" placeholder="¿Cómo es tu nombre?">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group py-2">
+                                        <input type="email" class="formatodecontacto form-control form-control-input"
+                                            id="exampleFormControlInput2" placeholder="¿Cual es tu teléfono?">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group py-1">
+                                <input type="email" class="formatodecontacto form-control form-control-input"
+                                    id="exampleFormControlInput3" placeholder="Dejanos tu mail, porfavor.">
+                            </div>
+                            <div class="form-group py-2">
+                                <textarea class="formatodecontacto form-control form-control-input"
+                                    id="exampleFormControlTextarea1" rows="6"
+                                    placeholder="¿Qué nos querés decir?"></textarea>
+                            </div>
+                        </div>
+                        <div class="my-3">
+                            <a class="btn-grad form-control-submit-button" type="submit" href="#your-link">Enviar</a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-down">
+                    <img class="img-fluid d-none d-lg-block" src="imagenes/peach.png" alt="contact">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="backfooter footer text-light p-1">
+        <div class=" container">
+            <div class="justify-content-around row" data-aos="fade-right">
+
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div class="footerformat p-3">
+                        <h4 class="py-2">Navegación rápida</h4>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="Index.html">
+                                <p class="ms-3">¿Quienes somos?</p>
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="Index.html#foot">
+                                <p class="foot"> Contacto</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div class="footerformat p-3">
+                        <h4 class="py-2">Links de información</h4>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="privacy.html">
+                                <p class="ms-3">Privacidad</p>
+                            </a>
+
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="terms.html">
+                                <p class="ms-3">Terminos y Condiciones</p>
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#">
+                                <p class="ms-3">Disclaimer</p>
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#">
+                                <p class="ms-3">FAQ</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div class="footerformat p-lg-3">
+                        <h4 class="py-2">Contacto</h4>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#about">
+                                <p class="ms-3">Nuestras redes sociales</p>
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#">
+                                <p class="ms-3">mailto@geekahgurlz.com</p>
+                            </a>
+                        </div>
+
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#">
+                                <p class="ms-3">Grupo de discord</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- scripts-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+</body>
