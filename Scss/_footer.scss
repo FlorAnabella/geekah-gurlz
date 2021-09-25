@@ -1,0 +1,28 @@
+ 
+  /* footer */
+  
+  .backfooter {
+    background-image: url(../imagenes/fondofooter.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    -webkit-animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  
+  }
+  
+  .footerformat {
+    @include formato-texto(#2300a1, 150%);
+    background-color: #ad1699;
+    opacity: 80%;
+    border-radius: 10%;
+    padding-left: 1em;
+    line-height: 1em;    
+  }
+  
+  a {
+    @include formato-texto($color-texto !important);
+    
+  }
+  

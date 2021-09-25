@@ -1,0 +1,28 @@
+/*barra de navegacion*/
+
+.colorbarra {
+    @include formato-texto($color-texto, 130%);
+    background-color: #BD3FBF;
+    border: none;
+
+}
+
+.logo {
+    margin-right: 2em;
+}
+
+.dropdown-menu {
+    background-color: #BD3FBF !important;
+    border: none;
+
+}
+
+a:hover {
+    color: $color-hover !important;
+    text-decoration: none !important;
+}
+
+.formatomenu {
+    @include formato-texto($color-texto, 1.5em);
+    padding-left: 1em;
+}

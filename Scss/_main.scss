@@ -1,0 +1,136 @@
+/*main*/
+.colfondo {
+    background-image: url(../imagenes/fondodemain.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.flexboxhijo1 {
+
+    margin: auto;
+}
+
+.flexboxhijo2 {
+    background-color: #5EF2F2;
+    border-radius: 1em;
+    opacity: 0.6;
+    margin-bottom: 4em;
+}
+
+/*carrousel*/
+
+.carrusel {
+    background-color: #1c0c2c;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+/* VIDEOJUEGOS */
+
+.fondomain {
+    background-color: #9733EE;
+
+}
+
+img {
+    width: 100%;
+
+}
+
+.titulocard {
+    font-family: $font-texto;
+    font-size: 150%;
+}
+
+.container {
+    margin: 25px auto;
+}
+
+.image {
+    position: relative;
+    overflow: hidden;
+
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        padding-left: 25px;
+        padding-top: 15px;
+        width: 100%;
+        color: rgb(236, 195, 224);
+        font-size: 20px;
+        z-index: 5;
+
+    }
+
+    .overlay::before {
+        content: "";
+        background: rgb(154, 230, 233);
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        position: absolute;
+        left: 0;
+        bottom: -150px;
+        z-index: -2;
+        opacity: 0.5;
+        transition: all 0.3s ease-out;
+    }
+
+    .image:hover .overlay {
+        color: rgb(158, 12, 126);
+    }
+}
+
+.container .image:hover .overlay {
+
+    .amount,
+    .h4,
+    .textmuted,
+    .fa-star,
+    .fa-star-half-alt,
+    .review {
+        color: rgb(156, 19, 122);
+    }
+}
+
+.image:hover .overlay::before {
+    bottom: 0px;
+}
+
+.amount {
+    font-size: 19px;
+    font-family: $font-texto;
+
+}
+
+.textmuted {
+    color: $color-hover;
+    font-weight: 800;
+    font-size: 17px;
+    font-family: $font-texto;
+
+}
+
+/*TABLA*/
+
+.fondodetabla {
+    background-color: #9733EE;
+}
+
+.textodetabla {
+    color: $color-texto;
+    font-family: $font-texto;
+    font-size: 120%;
+    text-decoration: none;
+    padding-left: 1em;
+
+}

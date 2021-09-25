@@ -1,0 +1,75 @@
+/* mixin y variables */
+
+@mixin formato-texto($color, $font-size : 100%) {
+    font-family: $font-texto;
+    color: $color;
+    font-size: $font-size;
+    text-decoration: none !important;
+}
+
+$font-texto: 'VT323',
+monospace;
+$font-titulo: 'Press Start 2P',
+cursive;
+$color-texto: #FFE99A;
+$color-texto2: #4A1559;
+$color-titulos: #61F6FF;
+$color-hover: #F54FCA;
+
+/* fin de mixin y variables */
+
+/*keyframe*/
+
+@-webkit-keyframes slide-in-fwd-center {
+    0% {
+        -webkit-transform: translateZ(-1400px);
+        transform: translateZ(-1400px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-fwd-center {
+    0% {
+        -webkit-transform: translateZ(-1400px);
+        transform: translateZ(-1400px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@import "_header.scss";
+@import "_footer.scss";
+@import "_main.scss";
+@import "_navbar.scss";
+@import "_contacto.scss";

@@ -1,0 +1,33 @@
+/*contacto*/
+
+.contacto {
+    background-color: #BD3FBF;
+}
+
+.formatodecontacto {
+    @include formato-texto($color-texto, 150%);
+    line-height: 1em;
+}
+
+/*boton enviar*/
+
+.btn-grad {
+    @include formato-texto($color-texto);
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    width: 30%;
+
+    &:hover {
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+    }
+}
